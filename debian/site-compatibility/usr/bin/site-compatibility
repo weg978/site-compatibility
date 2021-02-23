@@ -301,7 +301,7 @@ function fnt_create_list_menu {
 
   select_pkgs=$(zenity --list --checklist \
     --text="$ok_lbl를 원하는 프로그램을 선택하신 후 $ok_lbl 버튼을 클릭하세요." \
-    --column "선택" --column "패지키명" --column "버전" --column "설치유무" \
+    --column "선택" --column "패키지명" --column "버전" --column "설치유무" \
     "${AllPkgsArr[@]}" \
     --width=360 --height=480 \
     --ok-label="$ok_lbl" \
